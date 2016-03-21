@@ -1,0 +1,75 @@
+@import url(reset.css);
+.mainbox {
+	width: 500px;
+	padding: 20px 10px 0;
+	border: solid 1px #ddd;
+	margin-top: 15px;
+}
+.mainbox h1 {
+	text-align: center;
+}
+.addbox {
+	width: 320px;
+	margin: 12px auto;
+}
+.addbox input {
+	height: 30px;
+	width: 260px;
+}
+.addbox button {
+	height: 32px;
+	padding: 0 8px;
+	display: block;
+	float: right;
+	line-height: 32px;
+	border-radius: 2px;
+}
+.listbox {
+	width: 520px;
+	margin-left: -10px;
+}
+.listbox ul {}
+.listbox ul li {
+	line-height: 36px;
+	border-bottom: solid 1px #ddd;
+	height: 36px;
+	padding: 12px 15px;
+	overflow: hidden;
+}
+.listbox ul li:hover {
+	background: #f3f5de;
+}
+.listbox ul li:last-of-type {
+	border: none;
+}
+.listbox ul li input[type="checkbox"] {
+	margin: 11px 11px 11px 0;
+	width: 14px;
+	height: 14px;
+}
+.listbox ul li input[type="text"] {
+	width: 280px;
+	height: 32px;
+}
+.listbox ul li div.operate {
+	width: 160px;
+	text-align: center;
+}
+.listbox ul li button {
+	display: inline-block;
+	padding: 0 8px;
+	border-radius: 2px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 5px;
+}
+.del {
+	height: 30px;
+	padding: 0 15px;
+	border-radius: 2px;
+	margin: 6px;
+}
+button:hover {
+	background: #6a84f2;
+	color: #fff;
+}
